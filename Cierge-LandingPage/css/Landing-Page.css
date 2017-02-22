@@ -1,0 +1,234 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/building.jpeg');
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+body.landing-page,
+html.landing-page{
+    overflow:hidden;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     height:100%;
+
+}
+
+#pageWrapper{
+    border: solid 1px white;
+    height:100%;
+}
+#pageWrapper #landingContent{
+    margin-top:10%;
+    margin-bottom:1%;
+    position:absolute;
+}
+#landingContent #landingContentTitle h1{
+   color:#fff;
+   font-size:400%;
+  
+   letter-spacing:2px;
+}
+#landingContent #landingContentDescription{
+    margin-bottom:2%;
+}
+
+#landingContent #landingContentDescription p{
+    font-style:italic;
+    color:#fff;
+    font-size:24px;
+    font-weight:lighter;
+}
+#landingContent #landingContentSocial #notefietext #vaalidationMessage{
+    margin-left:16.5%;
+    display:none;
+    background-color:#DA362A;
+    color:#fff;
+    margin-top:0.2%;
+    border: solid 3px #DA362A;
+    -webkit-border-radius:5px 0 0 5px; 
+    -moz-border-radius: 5px 0 0 5px; 
+    border-radius:5px 0 0 5px;
+    position:absolute;
+}
+.arrow-right {
+    /*visibility:visible;*/
+    position:absolute;
+    margin-top:0.2%;
+  width: 0; 
+  height: 0; 
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  margin-left:33%;
+  border-left: 30px solid #DA362A;
+  display:none;
+}
+#landingContent #landingContentSocial #notefietext #vaalidationMessage label{
+    padding-top:5px;
+}
+
+#landingContent #landingContentSocial #notefietext #vaalidationEmailFormat{
+ margin-left:16.5%;
+    display:none;
+    background-color:#DA362A;
+    color:#fff;
+    margin-top:0.2%;
+    border: solid 3px #DA362A;
+    -webkit-border-radius:5px 0 0 5px; 
+    -moz-border-radius: 5px 0 0 5px; 
+    border-radius:5px 0 0 5px;
+    position:absolute;
+    height:34.5px;
+}
+#landingContent #landingContentSocial #notefietext #vaalidationEmailFormat label
+{
+    
+    padding-top:4px;
+}
+#landingContent #landingContentSocial #notefietext #textandButtonSend
+{
+    margin-left:264px;
+
+    position:absolute;
+}
+#landingContent #landingContentSocial #notefietext #textandButtonSend #txtnotefie{
+    width: 287px;
+    border-radius:30px;
+    margin-right:-56px;
+    height:27px;
+    border:0;
+    text-transform:uppercase;
+    text-indent:12px;
+    position:absolute;
+   
+}
+
+#landingContent #landingContentSocial #notefietext #textandButtonSend #btnsend{
+    width: 67px;
+    border-radius:30px;
+    color:#fff;
+    background-color:#00b300;
+    margin-left:215px;
+    border:0;
+    text-transform:uppercase;
+    box-shadow: -6px 0px 6px #fdfbfb;
+    position:relative;
+    margin-top:3px;
+}
+#landingContent #landingContentSocial #notefietext #divloading {
+    display:none;
+    margin-right:-20%;
+    margin-left:-15%;
+    margin-top:0.5%;
+}
+#landingContent #landingContentSocial #notefietext #divloading #loadingicon{
+ 
+    -webkit-animation: rotate 1000ms infinite linear;
+    animation: rotate 1000ms infinite linear;
+}
+#landingContent #landingContentSocial #socialIcons{
+    margin-top:3%;
+}
+
+#landingContent #landingContentSocial #socialIcons a{
+    margin-left:20px;
+}
+
+.landing-footer{
+    color:white;
+    text-decoration:none;
+    position:absolute;
+    bottom:0;
+        
+}
+.landing-footer a{
+    color:#fff;
+    text-decoration:none;
+}
+#privacyPolicy{
+    position:absolute;
+    top:1000px;
+    opacity:0;
+    width:100%;
+}
+
+#privacyPolicy .privacy-policy-content{
+    background-color:#fff;
+    border: 1px solid #999;
+    float:none;
+     height:500px;
+     overflow-y:scroll;
+    padding-left: 37px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+     
+
+ 
+#privacyPolicy .privacy-policy-content #closeButton{
+    float:right;
+    margin-right:-15px;
+    margin-top:20px;
+}
+
+#privacyPolicy .privacy-policy-content #closeButton #closeButtonIcon{
+    width:0px;
+}
+
+#privacyPolicy .privacy-policy-content #privacyTitleHeader h1{
+    text-align:center;
+   margin-bottom:3%;
+   font-size:27px;
+   margin-top:6%;
+   font-weight:bolder;
+}
+
+#privacyPolicy .privacy-policy-content .paragraph{
+        margin-bottom:20px;
+    }
+
+#termsAndConditions{
+    position:absolute;
+    top:1000px;
+    opacity:0;
+    width:100%;
+}
+
+#termsAndConditions .terms-conditions-content{
+        background-color:#fff;
+    border: 1px solid #999;
+    float:none;
+     height:500px;
+     overflow-y:scroll;
+    padding-left: 37px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-top:-20px;
+}
+
+#termsAndConditions .terms-conditions-content #closeButtonTerms{
+      float:right;
+    margin-right:-15px;
+    margin-top:20px;
+}
+#termsAndConditions .terms-conditions-content #closeButtonTerms #closeButtonTermsConditions{
+    width:0px;
+}
+#termsAndConditions .terms-conditions-content #TermsTitleHeader h1{
+     text-align:center;
+   margin-bottom:3%;
+   font-size:27px;
+   margin-top:6%;
+   font-weight:bolder;
+}
+#termsAndConditions .terms-conditions-content .paragraph{
+        margin-bottom:20px;
+    }
+@-webkit-keyframes rotate{
+     0%   {-webkit-transform: rotate(0deg);
+           transform: rotate(0deg);
+     }
+    100% {-webkit-transform: rotate(359deg);
+          transform: rotate(359deg);
+    }
+}

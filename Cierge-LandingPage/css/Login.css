@@ -1,0 +1,86 @@
+﻿body {
+    margin:0;
+    padding:0;
+    height:100%;
+    background-image:none;
+}
+html{
+    height:100%;
+}
+#pageWrapper{
+    height:100%;
+}
+#loginHeader{
+    height:60px;
+    background-color:rgba(245, 245, 245, 0.23);
+}
+#loginHeader img{
+    float:left;
+}
+#loginHeader h1{
+    font-size:14px;
+    width:200px;
+    float:left;
+    margin-top:20px;
+   margin-left:1%;
+   
+}
+#loginContent{
+    height:100%;
+}
+#contentWrapper{
+        height: 100%;
+    display: block;
+    
+    top: 8%;
+    margin:auto;
+
+}
+#loginContentInner{
+    width: 350px;
+    overflow: hidden;}
+
+#accountloginimg{
+    margin-bottom:10px;
+}
+#contentWrapper img{
+    width:140px;
+    height:initial;
+    height:100px;
+   margin:0 auto;
+    
+}
+#emaildiv{
+   text-align:center;
+   margin-bottom:5px;
+      
+    margin-top:10px;
+}
+#emaildiv input{
+    width:60%;
+    margin-bottom:10px;
+
+}
+#emaildiv select{
+    width:60%;
+    margin-bottom:10px;
+    border-radius:3px;
+    
+}
+#emaildiv btnnext{
+    width:60%;
+    color:#23527c;
+    text-decoration:underline;
+    border-radius:5px;
+    
+        margin-bottom:10px;
+}
+#accountloginimg h2{
+    font-size:14px;
+    
+    margin-top:10px;
+}
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
